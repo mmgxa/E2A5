@@ -12,6 +12,9 @@ Almost the same model (but slight changes to the number of layers) as presented 
 ## Accuracy  
 The `binary_accuracy` function was changed to `categorical_accuracy` since unlike the original notebook, here we have a multi-class problem
 
+## Training Logs  
+![Alt text](logs.png?raw=true "Training Logs")
+
 ## Results (without Augmentation)  
 I was able to get >>60% on the train dataset. Despite tinkering with the hyperparameters, I wasn't able to get accuracy > 40% in the validation dataset.
 
